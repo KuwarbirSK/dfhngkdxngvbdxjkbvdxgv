@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+ 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    background: #11141a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+ 
+.logo {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+ 
+nav a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+#Main_logo{
+    height: 60%;
+     width:90%;
+     padding-left: 20px;
+}
+#Home_heading{
+    font-size:100px;
+}
+#text1{
+    font-size: 30px;
+}
+#text2{
+    font-size: 30px;
+}
+nav a:hover,
+nav a.active {
+    color: #0ef;
+}
+ 
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f242d;
+    color: #fff;
+    font-weight: 700;
+}
+ 
+section:nth-child(odd) {
+    background: #323946;
+}
+
+
+
+
+
+.title{
+    font-family: sans-serif;
+    color: #dc2d5e;
+    text-align: center;
+}
+h4{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.tabContainer{
+    width: 1000px;
+    height: 300px;
+    text-align: center;
+   
+}
+.tabContainer, .buttonContainer button:hover{
+    background-color: #d7d4d4;
+}
+#btn1{
+    width: 50px;
+}
+#btn2{
+    width: 50px;
+}
+#btn3{
+    width: 50px;
+}
+#btn4{
+    width: 50px;
+}
+#btn5{
+    width: 100%;
+    text-align: center;
+}
+#btn6{
+    width: 100%;
+    text-align: center;
+}
+#btn7{
+    width: 100%;
+    text-align: center;
+}
+#btn8{
+    width: 100%;
+    text-align: center;
+}
